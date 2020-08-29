@@ -19,6 +19,8 @@ public class Tickets {
 	 	 
 	
 }
+	
+	
 	//Metodos
 	 
 	public void costodia() {
@@ -55,27 +57,43 @@ public class Tickets {
 	 //Sobre carga de metodos.
 	 
 	 public double sumarTickets() {
-		 double suma= precioAdulto+precioNino;
+		 double suma= precioAdulto + precioNino;
 		 System.out.println(suma);
 		 return suma;
 		 
 	 }
 
-	 public double sumarTickets(int descuento,int descuentoExtra) {
-		 double suma= (precioAdulto+precioNino)- descuento-descuentoExtra;
+	 public double sumarTickets(int descuento) {
+		 double suma= (precioAdulto + precioNino)- descuento;
+		 System.out.println(suma);
 		 return suma; 
 	 }
 	 
-	public static void main(String[] args) {
+	 public double sumarTickets(int descuento, int descuentoExtra) {
+		 double suma= (precioAdulto + precioNino) - (descuento + descuentoExtra);
+		 System.out.println(suma);
+		 return suma; 
+	 }
+	 
+	 
+	 public double sumarlosTickets(int descuento, int descuentoExtra, double descuentoVa) {
+		 double suma= (precioAdulto + precioNino) - (descuento + descuentoExtra)*descuentoVa;
+		 System.out.println(suma);
+		 return suma; 
+		 
+	 }
+			 
+	 public static void main(String[] args) {	
 		
-Tickets tickets= new Tickets(100, 19, true);
+Tickets tickets= new Tickets(120, 19, true);
 
 tickets.costodia();
 tickets.precioAdulto();
 tickets.precioNino();
 tickets.precioEstudiante();
 
-tickets.sumarTickets();
+//tickets.sumarTickets(20, 20);
+tickets.sumarlosTickets(10,10,5);
 
 	}
 
