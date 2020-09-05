@@ -1,4 +1,4 @@
-package com.exesise1;
+package com.exercise;
 
 public class Rectangulo extends Poligono{
 	
@@ -74,6 +74,7 @@ public String toString() {
        return message;
 }
 
+//Notación de java en memoria
 	@Override
 	public double area() {
 		return base * altura;

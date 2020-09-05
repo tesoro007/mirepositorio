@@ -1,4 +1,4 @@
-package com.exesise1;
+package com.exercise;
 
 public class Triangulo extends Poligono {
 	
@@ -18,6 +18,7 @@ public Triangulo(int lado1,int lado2, int lado3) {
 	}
 
 public Triangulo(double base, double altura) {
+	
 	super (3);
 	this.base1= base;
     this.altura1= altura;	

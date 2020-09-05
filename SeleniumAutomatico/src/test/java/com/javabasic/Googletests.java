@@ -2,8 +2,6 @@ package com.javabasic;
 
 
 
-
-
 import static org.testng.Assert.assertEquals;
 
 import java.util.concurrent.TimeUnit;
@@ -42,7 +40,7 @@ public class Googletests {
 		
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
-		assertEquals("Bolsa de trabajo OCC - Google Search", driver.getTitle());
+		assertEquals("Bolsa de trabajo OCC - Buscar con Google", driver.getTitle());
 		
 				
 	}

@@ -1,49 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Launch automatedtester app]]>
+    </line>
+    <line>
+      <![CDATA[Click Link Chapter 1]]>
+    </line>
+    <line>
+      <![CDATA[Click Radio Button]]>
+    </line>
+    <line>
+      <![CDATA[Select "Selenium Core" from dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Navigate Home page clicking "Home Page" link]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="358" started-at="2020-08-27T03:12:50Z" finished-at="2020-08-27T03:12:51Z">
+  <suite name="Default suite" duration-ms="22542" started-at="2020-09-05T18:31:07Z" finished-at="2020-09-05T18:31:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="358" started-at="2020-08-27T03:12:50Z" finished-at="2020-08-27T03:12:51Z">
-      <class name="com.javabasic.GoogleSearchTests">
-        <test-method status="FAIL" signature="testGooglePage()[pri:0, instance:com.javabasic.GoogleSearchTests@769e7ee8]" name="testGooglePage" duration-ms="77" started-at="2020-08-27T03:12:50Z" finished-at="2020-08-27T03:12:51Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.javabasic.GoogleSearchTests.testGooglePage(GoogleSearchTests.java:35)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+    <test name="Default test" duration-ms="22542" started-at="2020-09-05T18:31:07Z" finished-at="2020-09-05T18:31:29Z">
+      <class name="com.automatedtester.qa.TC001_Capter_ValidateDropdown">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.automatedtester.qa.TC001_Capter_ValidateDropdown@6193932a]" name="beforeTest" is-config="true" duration-ms="70" started-at="2020-09-05T18:31:07Z" finished-at="2020-09-05T18:31:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGooglePage -->
-      </class> <!-- com.javabasic.GoogleSearchTests -->
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TC01()[pri:0, instance:com.automatedtester.qa.TC001_Capter_ValidateDropdown@6193932a]" name="TC01" duration-ms="22339" started-at="2020-09-05T18:31:07Z" finished-at="2020-09-05T18:31:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Launch automatedtester app]]>
+            </line>
+            <line>
+              <![CDATA[Click Link Chapter 1]]>
+            </line>
+            <line>
+              <![CDATA[Click Radio Button]]>
+            </line>
+            <line>
+              <![CDATA[Select "Selenium Core" from dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Navigate Home page clicking "Home Page" link]]>
+            </line>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automatedtester.qa.TC001_Capter_ValidateDropdown@6193932a]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-09-05T18:31:29Z" finished-at="2020-09-05T18:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.automatedtester.qa.TC001_Capter_ValidateDropdown -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

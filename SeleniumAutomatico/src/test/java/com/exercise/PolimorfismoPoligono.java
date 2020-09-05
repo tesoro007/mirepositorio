@@ -1,4 +1,4 @@
-package com.exesise1;
+package com.exercise;
 
 public class PolimorfismoPoligono {
 
