@@ -20,16 +20,16 @@
       <![CDATA[Close Browser]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22542" started-at="2020-09-05T18:31:07Z" finished-at="2020-09-05T18:31:29Z">
+  <suite name="Default suite" duration-ms="22803" started-at="2020-09-06T03:17:56Z" finished-at="2020-09-06T03:18:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22542" started-at="2020-09-05T18:31:07Z" finished-at="2020-09-05T18:31:29Z">
+    <test name="Default test" duration-ms="22803" started-at="2020-09-06T03:17:56Z" finished-at="2020-09-06T03:18:19Z">
       <class name="com.automatedtester.qa.TC001_Capter_ValidateDropdown">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.automatedtester.qa.TC001_Capter_ValidateDropdown@6193932a]" name="beforeTest" is-config="true" duration-ms="70" started-at="2020-09-05T18:31:07Z" finished-at="2020-09-05T18:31:07Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.automatedtester.qa.TC001_Capter_ValidateDropdown@6193932a]" name="beforeTest" is-config="true" duration-ms="49" started-at="2020-09-06T03:17:56Z" finished-at="2020-09-06T03:17:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="TC01()[pri:0, instance:com.automatedtester.qa.TC001_Capter_ValidateDropdown@6193932a]" name="TC01" duration-ms="22339" started-at="2020-09-05T18:31:07Z" finished-at="2020-09-05T18:31:29Z">
+        <test-method status="PASS" signature="TC01()[pri:0, instance:com.automatedtester.qa.TC001_Capter_ValidateDropdown@6193932a]" name="TC01" duration-ms="22607" started-at="2020-09-06T03:17:56Z" finished-at="2020-09-06T03:18:19Z">
           <reporter-output>
             <line>
               <![CDATA[Launch automatedtester app]]>
@@ -51,7 +51,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- TC01 -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automatedtester.qa.TC001_Capter_ValidateDropdown@6193932a]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-09-05T18:31:29Z" finished-at="2020-09-05T18:31:29Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automatedtester.qa.TC001_Capter_ValidateDropdown@6193932a]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-09-06T03:18:19Z" finished-at="2020-09-06T03:18:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
