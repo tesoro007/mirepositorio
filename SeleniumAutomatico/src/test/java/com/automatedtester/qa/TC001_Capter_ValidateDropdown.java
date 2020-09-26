@@ -48,7 +48,7 @@ public class TC001_Capter_ValidateDropdown {
   // STEP 04
 	  Reporter.log("Select \"Selenium Core\" from dropdown"); //Reporte en TestNG
 	  Select dd_selenium= new Select(driver.findElement(By.xpath("//select[@id='selecttype']")));
-	  dd_selenium.selectByValue("Selenium Code");
+	  dd_selenium.selectByValue("Selenium Core");
   
 	  //STEP 05
 	  Reporter.log("Navigate Home page clicking \"Home Page\" link"); //Reporte en TestNG
